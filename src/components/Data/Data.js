@@ -8,8 +8,10 @@ import {
   UilSignOutAlt,
 } from "@iconscout/react-unicons";
 
+
 // Analytics Cards imports
 import { UilUsdSquare, UilMoneyWithdrawal } from "@iconscout/react-unicons";
+import { style } from "@mui/system";
 import { keyboard } from "@testing-library/user-event/dist/keyboard";
 
 // Recent Card Imports
@@ -21,22 +23,32 @@ export const SidebarData = [
   {
     icon: UilEstate,
     heading: "Dashboard",
+    path:'/',
+    cName:'navText',
   },
   {
     icon: UilUsersAlt,
     heading: "Employers",
+    path:'/Employer',
+    cName:'navText'
   },
   {
     icon: UilUsersAlt,
     heading: "Students",
+    path:'/Students',
+    cName:'navText'
   },
   {
     icon: UilClipboardAlt,
-    heading: 'Reports'
+    heading: 'Reports',
+    path:'/Reports',
+    cName:'navText'
   },
   {
     icon: UilClipboardAlt,
-    heading: 'Reviews'
+    heading: 'Reviews',
+    path:'/Reviews',
+    cName:'navText'
   },
 ];
 

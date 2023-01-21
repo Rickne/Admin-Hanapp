@@ -26,18 +26,24 @@
     .MainDash h1{
         font-size: 2rem;
         margin-top: 2rem;
-        width: 100%;
+        width: 380%;
         text-align: center;
     }
+
+    
 }
-@media screen and (max-width: 558px)
+@media screen and (max-width: 680px)
 {
     .MainDash h1{
-        font-size: 2rem;
+        /* font-size: 2rem;
         margin-top: 2rem;
-        width: 100%;
+        width: 20%;
         text-align: start;
-        margin-left: 5rem;
+        margin-left: 5rem; */
+        width: 50%;
+        margin-left: 13rem;
+        
+        
     }
 }
 

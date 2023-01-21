@@ -18,6 +18,26 @@
 @media screen and (max-width: 768px)
 {
   .Cards{
-    width: 90%;
+    flex-direction:column;
+    width: 250%;
+    padding-left: 1rem;
+    
   }
 }
+
+@media screen and (max-width: 680px){
+  .Cards{
+    flex-direction:column;
+    width: 100%;
+    padding-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px)
+{
+  .Cards{
+    width: 90%;
+    margin-left: 10%;
+  }
+}
+  

@@ -23,3 +23,30 @@
 .noti>div>span:nth-of-type(1){
     font-weight: bold;
 }
+
+@media screen and (max-width: 768px){
+    .Updates{
+        margin-top: 30%;
+        margin-left: 300%;
+        width: 80%;
+        background-color: #868B8E;
+      
+    }
+    .update{
+        width: 46;
+    }
+}
+@media screen and (max-width: 680px){
+    .Updates{
+        
+        
+        align-items: center;
+        margin-right: 39rem; 
+        width: 480px;
+        z-index: 1;
+        margin-top: 40rem;
+        background-color: #b0b3b5;
+        
+    }
+
+}

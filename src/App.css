@@ -38,15 +38,20 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 1200px) {
+
+@media screen and (max-width: 700px) {
   .AppGlass{
-    grid-template-columns: 10% 50% auto;
+    grid-template-columns: 90% 10% auto;
     overflow-y: scroll;
+    
   } 
+  
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 400px) {
   .AppGlass{
     grid-template-columns: 1fr;
-  } 
+    
+    
+  }
 }

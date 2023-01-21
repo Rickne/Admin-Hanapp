@@ -1,3 +1,4 @@
+
 .sidebar {
   display: flex;
   flex-direction: column;
@@ -22,7 +23,6 @@
   padding-left: 2rem;
 
 }
-
 
 .logo > img {
   width: 7rem;
@@ -71,6 +71,11 @@
   background: rgb(243, 180, 45);
   margin-right: calc(1rem - 8px);
 }
+.heading{
+  text-decoration: none;
+ 
+}
+
 
 
 /* Tablets */
@@ -85,15 +90,17 @@
 
 @media screen and (max-width: 768px) {
   .sidebar{
+    border-radius: 3%;
     position: fixed;
     z-index: 9;
     background: #2c2c2c;
-    width: 55%;
+    width: 25%;
     padding-right: 1rem;
     height: 100%;
   }
   .menuItem>span{
     display: block;
+    
   }
   .logo{
     display: flex;
@@ -106,14 +113,36 @@
     display: flex;
     position: fixed;
     top: 2rem;
-    left:60%;
+    left:5%;
     background:#ffe0e0;
     padding:10px;
     border-radius: 10px;
     z-index: 9;
+  } 
+  .heading{
+    padding-left: 2rem;
   }
   .close{
     left: -60%;
   }
 }
 
+@media screen and (max-width: 680px ){
+  .sidebar{
+    border-radius: 3%;
+    position: fixed;
+    z-index: 9;
+    background: #2c2c2c;
+    width: 25%;
+    padding-right: 1rem;
+    height: 100%; 
+}
+
+@media screen and (max-width: 480px){
+  
+  .sidebar{
+    width: 35% ;
+    
+  }
+}
+}
