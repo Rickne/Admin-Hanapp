@@ -131,6 +131,31 @@ export const UpdatesData = [
     noti: "has joined the hanapp community as a employer.",
     time: "2 hours ago",
   },
+];
+
+ // excel export data
+
+ export const excelData = [
   
-  
+  {
+    name: "Sasuke Uchiha",
+    noti: "has joined the hanapp community as a employer.",
+    time: "25 seconds ago",
+  },
+  {
+    name: "Hinata Hyuga",
+    noti: "has joined the hanapp community as a student job seeker.",
+    time: "30 minutes ago",
+  },
+  {
+    name: "Naruto Uzumaki",
+    noti: "has joined the hanapp community as a student job seeker.",
+    time: "2 hours ago",
+  },
+  {
+    name: "Madara Uchiha",
+    noti: "has joined the hanapp community as a employer.",
+    time: "2 hours ago",
+  },
+
 ];
